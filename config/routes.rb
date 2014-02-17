@@ -1,4 +1,13 @@
 Fbfeed::Application.routes.draw do
+  resources :posts
+
+  resources :categories
+
+  resources :users
+
+  match 'api/tags/' => 'api#tags'
+  match 'api/posts/' => 'api#posts'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,3 @@
+# facebook app tokens
+APP_ID = '595284353879831'
+APP_SECRET = '770db83988e061d98bb1a1a0119fc3e6'
