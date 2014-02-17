@@ -5,6 +5,7 @@ Fbfeed::Application.routes.draw do
 
   resources :users
 
+  root :to => 'index#index'
   match 'api/tags/' => 'api#tags'
   match 'api/posts/' => 'api#posts'
 
